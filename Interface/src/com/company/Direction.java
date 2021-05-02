@@ -1,2 +1,3 @@
-package com.company;public enum Direction {
-}
+package com.company;
+
+public enum Direction { UP, DOWN, RIGHT, LEFT, NONE}
