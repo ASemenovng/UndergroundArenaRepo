@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="600.0">com.twentyeight.underground_arena.weapons.DoctorWeapon</node>
+    <node x="286.0" y="600.0">com.twentyeight.underground_arena.weapons.JournalistWeapon</node>
+    <node x="320.0" y="242.0">com.twentyeight.underground_arena.clothes.DoctorClothes</node>
+    <node x="640.0" y="242.0">com.twentyeight.underground_arena.clothes.JournalistClothes</node>
+    <node x="286.0" y="358.0">com.twentyeight.underground_arena.weapons.IWeapon</node>
+    <node x="320.0" y="0.0">com.twentyeight.underground_arena.clothes.IClothes</node>
+    <node x="320.0" y="121.0">com.twentyeight.underground_arena.clothes.Clothes</node>
+    <node x="669.0" y="866.0">com.twentyeight.underground_arena.factories.DoctorStyleFactory</node>
+    <node x="357.0" y="716.0">com.twentyeight.underground_arena.factories.StyleFactory</node>
+    <node x="286.0" y="479.0">com.twentyeight.underground_arena.weapons.Weapon</node>
+    <node x="0.0" y="866.0">com.twentyeight.underground_arena.factories.JournalistStyleFactory</node>
+    <node x="354.0" y="866.0">com.twentyeight.underground_arena.factories.SoldierStyleFactory</node>
+    <node x="0.0" y="242.0">com.twentyeight.underground_arena.clothes.SoldierClothes</node>
+    <node x="572.0" y="600.0">com.twentyeight.underground_arena.weapons.SoldierWeapon</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.twentyeight.underground_arena.weapons.DoctorWeapon" target="com.twentyeight.underground_arena.weapons.Weapon">
+      <point x="0.0" y="-35.5" />
+      <point x="133.0" y="575.0" />
+      <point x="330.3333333333333" y="575.0" />
+      <point x="-88.66666666666669" y="35.5" />
+    </edge>
+    <edge source="com.twentyeight.underground_arena.factories.JournalistStyleFactory" target="com.twentyeight.underground_arena.factories.StyleFactory">
+      <point x="0.0" y="-50.0" />
+      <point x="167.0" y="841.0" />
+      <point x="405.1666666666667" y="841.0" />
+      <point x="-96.33333333333331" y="50.0" />
+    </edge>
+    <edge source="com.twentyeight.underground_arena.factories.SoldierStyleFactory" target="com.twentyeight.underground_arena.factories.StyleFactory">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.twentyeight.underground_arena.weapons.SoldierWeapon" target="com.twentyeight.underground_arena.weapons.Weapon">
+      <point x="0.0" y="-35.5" />
+      <point x="705.0" y="575.0" />
+      <point x="507.6666666666667" y="575.0" />
+      <point x="88.66666666666669" y="35.5" />
+    </edge>
+    <edge source="com.twentyeight.underground_arena.clothes.JournalistClothes" target="com.twentyeight.underground_arena.clothes.Clothes">
+      <point x="0.0" y="-35.5" />
+      <point x="790.0" y="217.0" />
+      <point x="570.0" y="217.0" />
+      <point x="100.0" y="35.5" />
+    </edge>
+    <edge source="com.twentyeight.underground_arena.factories.DoctorStyleFactory" target="com.twentyeight.underground_arena.factories.StyleFactory">
+      <point x="0.0" y="-50.0" />
+      <point x="813.5" y="841.0" />
+      <point x="597.8333333333333" y="841.0" />
+      <point x="96.33333333333326" y="50.0" />
+    </edge>
+    <edge source="com.twentyeight.underground_arena.clothes.Clothes" target="com.twentyeight.underground_arena.clothes.IClothes">
+      <point x="0.0" y="-35.5" />
+      <point x="0.0" y="35.5" />
+    </edge>
+    <edge source="com.twentyeight.underground_arena.weapons.Weapon" target="com.twentyeight.underground_arena.weapons.IWeapon">
+      <point x="0.0" y="-35.5" />
+      <point x="0.0" y="35.5" />
+    </edge>
+    <edge source="com.twentyeight.underground_arena.clothes.SoldierClothes" target="com.twentyeight.underground_arena.clothes.Clothes">
+      <point x="0.0" y="-35.5" />
+      <point x="150.0" y="217.0" />
+      <point x="370.0" y="217.0" />
+      <point x="-100.0" y="35.5" />
+    </edge>
+    <edge source="com.twentyeight.underground_arena.clothes.DoctorClothes" target="com.twentyeight.underground_arena.clothes.Clothes">
+      <point x="0.0" y="-35.5" />
+      <point x="0.0" y="35.5" />
+    </edge>
+    <edge source="com.twentyeight.underground_arena.weapons.JournalistWeapon" target="com.twentyeight.underground_arena.weapons.Weapon">
+      <point x="0.0" y="-35.5" />
+      <point x="0.0" y="35.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="440.0" y="424.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

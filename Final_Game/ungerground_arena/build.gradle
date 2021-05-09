@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.twentyeight'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+mainClassName = 'com.twentyeight.underground_arena.Main'
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
